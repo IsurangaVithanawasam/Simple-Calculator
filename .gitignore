@@ -26,4 +26,4 @@ vite.config.js
 *.njsproj
 *.sln
 *.sw?
-img.png
+public/img.png
