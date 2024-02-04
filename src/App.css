@@ -1,23 +1,57 @@
 * {
-  font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: Ubuntu,sans-serif;
+  background-color: darkgrey;
+}
+
+footer {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 150px;
+}
+h1 {
+  text-align: center;
+  margin: 50px 0 100px 0;
+}
+
+p {
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
 }
 input,
 button {
   font-size: 20px;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15rem;
 }
 input {
+  margin-top: 20px;
+  width: 100%;
   display: block;
   margin-bottom: 20px;
 }
 button {
+  width: 100%;
   border: 1px solid gray;
-  background: whitesmoke;
+  background: lightblue;
   margin-right: 5px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: aqua;
 }
 button:nth-last-child(2),
 button:nth-last-child(1) {
-  background: tomato;
+  background: lightpink;
   color: white;
+  transition: 0.2s ease;
 }
+
+button:nth-last-child(2):hover,
+button:nth-last-child(1):hover {
+  background: lightcoral;
+}
+

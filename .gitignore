@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+pnpm-lock.yaml
+package.json
+vite.config.js
+
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +26,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+img.png
